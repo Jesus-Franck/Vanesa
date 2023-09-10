@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Encabezado */
+header {
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Sección de contacto */
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact h1 {
+    font-size: 36px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social-links a img {
+    max-width: 40px;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
